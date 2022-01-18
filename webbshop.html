@@ -1,0 +1,233 @@
+
+<!doctype html>
+
+<head>
+  <meta charset="utf-8" lang="sv">
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+  <title>Happy Crappy Studio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Happy Crappy Studio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+  <!--CSS från youtube-video. Länk: https://www.youtube.com/watch?v=9cKsq14Kfsw&t=9s-->
+
+  <link rel="stylesheet" href="./style/style.css" >
+  <link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
+
+  <!--Min egna CSS som jag lag till via SCSS-->
+
+  <link rel="stylesheet" href="./style/stylesheet.css" />
+
+</head>
+
+<body>
+    <!---Navigation with dropdown meny-->
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top"> 
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"> <img class="logga" src="img1/chick.png">Happy Crappy Studio &copy; </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="aboutme.html">Om mig</a></li> 
+                   
+                    <div class="dropdown">
+                        <button class="dropbtn"><li class="nav-item"><a class="nav-link" href="portfolio.html" >Portfolio</a></li><li class="nav-item"></button>
+                        <div class="dropdown-content">
+                          <a href="video.html" >Rörligt material</a>
+                          <a href="ljud.html">Ljudproduktion</a>
+                          <a href="teater.html">Teater</a>
+                          
+                          
+                        </div>
+                      </div>
+
+                    <div class="dropdown">
+                        <button class="dropbtn"><li class="nav-item"><a class="nav-link" href="webbshop.html">Webbshop</a></li></button>
+                        <div class="dropdown-content">
+                          <a href="keramik.html">Keramik</a>
+                          <a href="prints.html">Prints</a>
+                          
+                        </div>
+                      </div>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Startsida</a></li>
+
+                </ul>
+            </div>
+        </div>
+        </nav>
+
+
+<!---Header-->
+
+<header>
+    <img src="img1/good-unsplash.png">
+    <div class="carousel-caption">
+        <h1 class="header-move">Happy Crappy Studio</h1>
+   
+</header>
+
+<!--- Meet the team -->
+<div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4">Webbshop</h1>
+            <hr>
+        </div>
+    </div>
+</div>
+
+ <!--Alla produkter-->
+ <section class="all-products">
+
+    <!--Kod för varje produkt-->
+<!--Först Printsen-->
+    <div class="product">
+      <img
+        src="https://images.unsplash.com/photo-1554188248-986adbb73be4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9"
+        alt="geometry art"
+      />
+      <h2>
+        EYE SEE YOU - Perspective Playground, photokina 2018 "Super Labyrinth“
+        by Morag Myerscough and Luke Morgan
+      </h2>
+      <a href="#">buy print</a>
+    </div>
+
+    <div class="product">
+      <img
+        src="https://images.unsplash.com/photo-1523895665936-7bfe172b757d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9"
+        alt="abstract art"
+      />
+      <h2>green, yellow, and red abstract painting</h2>
+      <a href="#">buy print</a>
+    </div>
+
+    <div class="product">
+      <img
+        src="https://images.unsplash.com/photo-1503169483-419b860b9208?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9"
+        alt="triangle art"
+      />
+      <h2>Colorful street art in the streets of Seville</h2>
+      <a href="#">buy print</a>
+    </div>
+
+    <div class="product">
+      <img
+        src="https://images.unsplash.com/photo-1496626868305-15f52fa605b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9"
+        alt="street art"
+      />
+      <h2>Street art from Los Angeles</h2>
+      <a href="#">buy print</a>
+    </div>
+
+    <div class="product">
+      <img
+        src="https://images.unsplash.com/photo-1555443805-658637491dd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9"
+        alt="stone bust"
+      />
+      <h2>National Museum , Tirana, Albania</h2>
+      <a href="#">buy print</a>
+    </div>
+
+    <div class="product">
+      <img
+        src="https://images.unsplash.com/photo-1544273677-c433136021d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9"
+        alt="kid's art"
+      />
+      <h2>Paintings from my twelve year old nephew.</h2>
+      <a href="#">buy print</a>
+    </div>
+
+    <div class="product">
+      <img
+        src="https://images.unsplash.com/photo-1564089915105-db97895bdd78?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9"
+        alt="abstract art"
+      />
+      <h2>Abstracts by Paweł Czerwiński</h2>
+      <a href="#">buy print</a>
+    </div>
+
+
+<!---Keramik produkter här nedan-->
+
+    <div class="product">
+        <img
+          src="img1/tom-crew-unsplash.jpg"
+          alt="ceramic cup"
+        />
+        <h2>
+          Tom Crew Ceramics Cup // unsplash
+        </h2>
+        <a href="#">buy cup</a>
+      </div>
+    
+      <div class="product">
+        <img
+          src="img1/eniko-kis-iu9FOHSQ8Z8-unsplash.jpg"
+          alt="ceramic plates"
+        />
+        <h2> Eniko Kis skålar // unsplash</h2>
+        <a href="#">buy plates</a>
+      </div>
+    
+      <div class="product">
+        <img
+          src="img1/vladimir-gladkov-NPPIq1XFdck-unsplash.jpg"
+          alt="Pottery"
+        />
+        <h2>Vlademir Gladkov Pottery // unsplash</h2>
+        <a href="#">buy pottery</a>
+      </div>
+    
+      <div class="product">
+        <img
+          src="img1/tom-crew-YA2E3d7a9Wo-unsplash.jpg"
+          alt="fat"
+        />
+        <h2>Tom Crew Plates // unsplash</h2>
+        <a href="#">buy plate</a>
+      </div>
+    
+      <div class="product">
+        <img
+          src="img1/oscar-nord-Oiw_tgU4k-g-unsplash.jpg"
+          alt="oscar nord plate"
+        />
+        <h2>Oscar Nord Plate // unsplash</h2>
+        <a href="#">buy plate</a>
+      </div>
+  </section>
+
+
+
+<!--- Footer -->
+
+<footer>
+  <div class="container-fluid padding">
+      <div class="row text-center">
+          <div class="col-md-4">
+              
+              <hr class="light">
+              
+              <p>sara.maria.axelsson@gmail.com </p>
+          
+          <p>Icons made by <a href="https://www.flaticon.com/authors/iconixar" title="iconixar">
+              iconixar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> </p>
+  </div>
+
+<!--Socket section-->  
+
+<div class="col-12">
+  <hr class="light-100">
+  <h5>&copy; happycrappystudio </h5>
+</div>
+</div>
+
+</body>

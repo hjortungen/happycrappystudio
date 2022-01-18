@@ -1,0 +1,161 @@
+@charset "UTF-8";
+header img {
+  width: 100%;
+  height: 60%;
+}
+
+/* Dropdown meny */
+/* Dropdown Button */
+.dropbtn {
+  background-color: whitesmoke;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: whitesmoke;
+  color: white;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: none;
+}
+
+.logga {
+  width: 25px;
+}
+
+/* Styling för webbshoppen */
+/* Styling för alla produkter – dessa är children till
+sektionen med klassnamnet all-products */
+.product {
+  border: solid #fe859f 0.5px;
+  margin: 10px;
+  padding: 30px;
+  width: 25%;
+}
+
+.product img {
+  margin: 3%;
+  width: 100%;
+}
+
+/* Här har vi CSS-kod delvis från technigo's fem-dagars gratiskurs */
+.all-products a {
+  color: #fe859f;
+}
+
+.all-products h1 {
+  font-size: 90px;
+  max-width: 800px;
+}
+
+.all-products h2 {
+  font-size: 15px;
+}
+
+/* Sektionen .all-products är parent till div-arna med
+  klassnamn .product. Den styr därmed hur alla produkterna
+  ska vara placerade.
+  Hint! Googla "flex-wrap".*/
+.all-products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.videoframe {
+  margin: 5px;
+  padding: 40px;
+}
+
+.soundcloudframe {
+  margin: 5px;
+  padding: 40px;
+}
+
+/*---Media Queries --*/
+@media (max-width: 768px) {
+  .product {
+    width: 43%;
+    margin-left: 2%;
+  }
+  .all-products {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media (max-width: 576px) {
+  .product {
+    width: 70%;
+    margin-left: 15%;
+  }
+  .all-products {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+/*# sourceMappingURL=stylesheet.css.map */

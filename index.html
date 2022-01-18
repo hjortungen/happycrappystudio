@@ -1,0 +1,259 @@
+
+<!doctype html>
+
+<head>
+  <meta charset="utf-8" lang="sv">
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+  <title>Happy Crappy Studio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Happy Crappy Studio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+  <!--CSS från youtube-video. Länk: https://www.youtube.com/watch?v=9cKsq14Kfsw&t=9s-->
+
+  <link rel="stylesheet" href="./style/style.css" >
+  
+
+  <!--Min egna CSS som jag lag till via SCSS-->
+
+  <link rel="stylesheet" href="./style/stylesheet.css" />
+
+</head>
+
+<body>
+            <!---Navigation with dropdown meny-->
+        
+            <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top"> 
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"> <img class="logga" src="img1/chick.png"> Happy Crappy Studio &copy; </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a class="nav-link" href="aboutme.html">Om mig</a></li> 
+                           
+                            <div class="dropdown">
+                                <button class="dropbtn"><li class="nav-item"><a class="nav-link" href="portfolio.html" >Portfolio</a></li><li class="nav-item"></button>
+                                <div class="dropdown-content">
+                                  <a href="video.html" >Rörligt material</a>
+                                  <a href="ljud.html">Ljudproduktion</a>
+                                  <a href="teater.html">Teater</a>
+                                  
+                                  
+                                </div>
+                              </div>
+
+                            <div class="dropdown">
+                                <button class="dropbtn"><li class="nav-item"><a class="nav-link" href="webbshop.html">Webbshop</a></li></button>
+                                <div class="dropdown-content">
+                                  <a href="keramik.html">Keramik</a>
+                                  <a href="prints.html">Prints</a>
+                                 
+                                </div> 
+                              </div>
+                            <li class="nav-item"><a class="nav-link" href="index.html">Startsida</a></li>
+    
+                        </ul>
+                    </div>
+                </div>
+                </nav>
+
+
+
+
+
+
+<!---Header-->
+
+<header>
+    <img src="img1/good-unsplash.png">
+    <div class="carousel-caption">
+        <h1 class="header-move">Happy Crappy Studio</h1>
+   
+  </header>
+
+<!--- Jumbotron -->
+<!--div class="container-fluid">
+    <div class="row jumbotron">
+       <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+           <p class="lead">Du är så yeah yeah, wow wow. Ja du är så yeah yeah wow wow.</p>
+       </div> 
+       <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+           <a href="#"> <button type="button" class="btn btn-outline-secondary btn-lg">Web Hosting</button></a>
+       </div>
+    </div>
+</div> -->
+
+
+
+
+<!--- Cards -->
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="img1/chefspos.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">Om mig</h4>
+                    <p class="card-text">En programerare med en kandidat i teaterstudier.</p>
+                         <a href="aboutme.html" class="btn btn-outline-secondary">Titta in!</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="img1/mask.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">Portfolio</h4>
+                    <p class="card-text">Här finns rörligt material och ljud som jag producerat bl.a.</p>
+                         <a href="portfolio.html" class="btn btn-outline-secondary">Titta in!</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="img1/tshirt.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">Webbshop</h4>
+                    <p class="card-text">Detta är bara en hittepå-affär tills dess att jag bestämmer mig för att faktiskt lägga ut keramik eller prints. Jag äger alltså inget av de bilder eller keramiken som visas i denna hittepå-affär. Men titta gärna in. För här finns saker jag tycker är vackra. Alla bilder är från unsplash och det står vem som är upphosvsmakare på.</p>
+                         <a href="webbshop.html" class="btn btn-outline-secondary">Få inspo!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!--- Emoji Section -->
+
+<button class="fun" data-toggle="collapse" data-target="#emoji">click for fun</button>  
+<div id="emoji" class="collapse">
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-sm-6 col-md-3">
+                <img class="gif" src="img/gif/panda.gif">
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img class="gif" src="img/gif/poo.gif">
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img class="gif" src="img/gif/unicorn.gif">
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img class="gif" src="img/gif/chicken.gif">
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+<!--- Two Column Section -->
+<!--- <div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-lg-6">
+            <h2>Our Philosphy</h2>
+            <p>We know that greatness in a disruptive era requires bold ambition blablbla. John is an Internet entrepreanuer who
+                has almost 20 years of experiance. John is an Internet entrepreanuer who
+                has almost 20 years of experiance.</p>
+            <p>We approach every challenge holistically. Jaddajadda hej hhopp i hopp i skuttiluran son. John is an Internet entrepreanuer who
+                has almost 20 years of experiance.John is an Internet entrepreanuer who
+                has almost 20 years of experiance.
+            </p>
+        <br>
+        </div> -->
+       
+    </div>
+<hr class="my-4">
+</div>
+<!--- Three Column Section -->
+<div class="container-fluid padding" >
+    <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <i class="fas fa-code"></i>
+            <h3>HTML5</h3>
+            <p>Built with the latest version of HTML, HTML5.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <i class="fas fa-bold"></i>
+            <h3>BOOTSTRAP</h3>
+            <p>Built with the latest version of Bootstrap, Bootstrap 4.</p>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <i class="fab fa-css3"></i>
+            <h3>CSS3</h3>
+            <p>Built with the latest version of CSS, CSS3.</p>
+        </div>
+    </div>
+    <hr class="my-4">
+</div>
+
+<!--- Connect -->
+<!---<div class="container-fluid padding">
+    <div class="row text-center padding">
+        <div class="col-12">
+            <h2>Connect</h2>
+        </div>
+        <div class="col-12 social padding">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>     
+    </div>
+</div> -->
+
+
+<!--- Footer -->
+
+<footer>
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-md-4">
+               
+                <hr class="light">
+           
+                <p>sara.maria.axelsson@gmail.com </p>
+                
+            </div>
+            
+        </div>
+        <div class="col-md-4">
+            <hr class="light">
+            
+            <p>Icons made by <a href="https://www.flaticon.com/authors/iconixar" title="iconixar">
+                iconixar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> </p>
+    </div>
+
+<!----socket section-->
+    <div class="col-12">
+        <hr class="light-100">
+        <h5>&copy; happycrappystudio </h5>
+    </div>
+    </div>
+</footer>
+
+
+
+
+
+
+</body>
+
+
+</html>
