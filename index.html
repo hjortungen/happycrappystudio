@@ -1,4 +1,3 @@
-
 <!doctype html>
 
 <head>
@@ -16,7 +15,7 @@
   <!--CSS från youtube-video. Länk: https://www.youtube.com/watch?v=9cKsq14Kfsw&t=9s-->
 
   <link rel="stylesheet" href="./style/style.css" >
-  <link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
+  
 
   <!--Min egna CSS som jag lag till via SCSS-->
 
@@ -25,51 +24,57 @@
 </head>
 
 <body>
-    <!---Navigation with dropdown meny-->
+            <!---Navigation with dropdown meny-->
+        
+            <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top"> 
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"> <img class="logga" src="img1/chick.png"> Happy Crappy Studio &copy; </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a class="nav-link" href="aboutme.html">Om mig</a></li> 
+                           
+                            <div class="dropdown">
+                                <button class="dropbtn"><li class="nav-item"><a class="nav-link" href="portfolio.html" >Portfolio</a></li><li class="nav-item"></button>
+                                <div class="dropdown-content">
+                                  <a href="video.html" >Rörligt material</a>
+                                  <a href="ljud.html">Ljudproduktion</a>
+                                  <a href="teater.html">Teater</a>
+                                  
+                                  
+                                </div>
+                              </div>
 
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top"> 
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"> <img class="logga" src="img1/chick.png">Happy Crappy Studio &copy; </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="aboutme.html">Om mig</a></li> 
-                   
-                    <div class="dropdown">
-                        <button class="dropbtn"><li class="nav-item"><a class="nav-link" href="portfolio.html" >Portfolio</a></li><li class="nav-item"></button>
-                        <div class="dropdown-content">
-                          <a href="video.html" >Rörligt material</a>
-                          <a href="ljud.html">Ljudproduktion</a>
-                          <a href="teater.html">Teater</a>
-                          
-                          
-                        </div>
-                      </div>
+                            <div class="dropdown">
+                                <button class="dropbtn"><li class="nav-item"><a class="nav-link" href="webbshop.html">Webbshop</a></li></button>
+                                <div class="dropdown-content">
+                                  <a href="keramik.html">Keramik</a>
+                                  <a href="prints.html">Prints</a>
+                                 
+                                </div> 
+                              </div>
+                            <li class="nav-item"><a class="nav-link" href="index.html">Startsida</a></li>
+    
+                        </ul>
+                    </div>
+                </div>
+                </nav>
 
-                    <div class="dropdown">
-                        <button class="dropbtn"><li class="nav-item"><a class="nav-link" href="webbshop.html">Webbshop</a></li></button>
-                        <div class="dropdown-content">
-                          <a href="keramik.html">Keramik</a>
-                          <a href="prints.html">Prints</a>
-                          
-                        </div>
-                      </div>
-                    <li class="nav-item"><a class="nav-link" href="index.html">Startsida</a></li>
 
-                </ul>
-            </div>
-        </div>
-        </nav>
+
+
 
 
 <!---Header-->
 
 <header>
-  <img src="img1/good-unsplash.png" >
-  <div class="carousel-caption">
-      <h1>Happy Crappy Studio</h1>
+    <img src="img1/good-unsplash.png">
+    <div class="carousel-caption">
+        <h1 class="header-move">Happy Crappy Studio</h1>
+   
+  </header>
 
 <!--- Jumbotron -->
 <!--div class="container-fluid">
