@@ -48,7 +48,7 @@ html, body {
 .jumbotron {
   padding: 1rem;
   border-radius: 0;
-  background-color: #83cfcfd7;
+  background-color: #26389cd7;
   color: rgb(255, 255, 255);
   
 }
@@ -131,7 +131,7 @@ html, body {
 }
 
 footer {
-  background-color: #306d6dd7;
+   background-color: #26389cd7;
   color: rgb(255, 255, 255);
   padding-top: 2rem;
 }
