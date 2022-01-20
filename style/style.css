@@ -187,7 +187,7 @@ hr.light-100 {
 
 @media (max-width: 576px) {
   .carousel-caption {
-    top: 42%;
+    top: 40%;
   }
   .carousel-caption h1 {
     font-size: 220%;
