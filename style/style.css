@@ -211,6 +211,11 @@ hr.light-100 {
   }
 }
 
+@media (max-width: 364px) {
+  .carousel-caption {
+    top: 42%;
+  }
+
 /*---Firefox Bug Fix --*/
 .carousel-item {
   transition: -webkit-transform 0.5s ease;
