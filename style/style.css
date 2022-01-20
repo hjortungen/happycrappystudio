@@ -214,7 +214,7 @@ hr.light-100 {
 @media (max-width: 364px) {
   .carousel-caption {
     top: 42%;
-  }
+  }}
 
 /*---Firefox Bug Fix --*/
 .carousel-item {
